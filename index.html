@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web App with Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tab-content" id="home">This is the Home screen.</div>
+        <div class="tab-content" id="page1">This is Page 1.</div>
+        <div class="tab-content" id="page2">This is Page 2.</div>
+        <div class="tab-content" id="page3">This is Page 3.</div>
+        <div class="tab-content" id="page4">This is Page 4.</div>
+    </div>
+    <div class="tab-bar">
+        <button class="tab-button" data-target="page1">Page 1</button>
+        <button class="tab-button" data-target="page2">Page 2</button>
+        <button class="tab-button main-button" data-target="home">Home</button>
+        <button class="tab-button" data-target="page3">Page 3</button>
+        <button class="tab-button" data-target="page4">Page 4</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
